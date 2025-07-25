@@ -1,0 +1,449 @@
+Experiment:1
+No.of layers: 1
+No.of Neurons in layer: 10
+Activation function: soft max
+Optimizer: sgd
+Loss: categorical_cross_entropy
+metrics: accuracy
+epochs: 10
+batch_size: 32
+validation_data: true
+val_accuracy: true
+val_loss: true
+
+
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P1.py"
+2025-07-25 10:52:40.856474: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 10:52:43.884610: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 ━━━━━━━━━━━━━━━━━━━━ 6s 1us/step
+Training data shape: (60000, 28, 28)
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:30:59.463681: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:31:01.478030: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+5
+<class 'numpy.uint8'>
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:31:05.578430: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 784us/step - loss: 439.6227   
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 772us/step - loss: 259.0396
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 726us/step - loss: 240.7484
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 719us/step - loss: 244.3319
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 730us/step - loss: 242.2810
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 699us/step - loss: 238.0413
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 748us/step - loss: 226.1507
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 745us/step - loss: 236.2191  
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 785us/step - loss: 234.5968
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 763us/step - loss: 219.1342
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:36:17.529934: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:36:18.445273: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:36:20.745694: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 848us/step - accuracy: 0.8022 - loss: 469.4600  
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 841us/step - accuracy: 0.8660 - loss: 262.7154
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 865us/step - accuracy: 0.8755 - loss: 242.4211
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 836us/step - accuracy: 0.8793 - loss: 241.7812
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 836us/step - accuracy: 0.8764 - loss: 239.0161
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 837us/step - accuracy: 0.8821 - loss: 228.8749
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 829us/step - accuracy: 0.8782 - loss: 247.1247
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 824us/step - accuracy: 0.8830 - loss: 228.6590
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 850us/step - accuracy: 0.8817 - loss: 236.9525 
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 817us/step - accuracy: 0.8839 - loss: 230.4537
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:40:03.080117: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:40:04.011214: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:40:06.307011: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8032 - loss: 454.6118    
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 897us/step - accuracy: 0.8655 - loss: 259.6107
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 855us/step - accuracy: 0.8730 - loss: 249.6230
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 854us/step - accuracy: 0.8728 - loss: 250.0202
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 843us/step - accuracy: 0.8824 - loss: 228.4413
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 847us/step - accuracy: 0.8829 - loss: 234.3986
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 838us/step - accuracy: 0.8795 - loss: 243.7351
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 923us/step - accuracy: 0.8818 - loss: 237.4350
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 862us/step - accuracy: 0.8830 - loss: 232.7165
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 859us/step - accuracy: 0.8822 - loss: 235.5921
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 885us/step - accuracy: 0.8562 - loss: 314.2210 
+Test accuracy: 0.8683000206947327
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:42:58.238123: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:42:59.195605: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:43:01.631653: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 824us/step - accuracy: 0.8036 - loss: 484.4864  
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 864us/step - accuracy: 0.8672 - loss: 255.5664
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 840us/step - accuracy: 0.8734 - loss: 246.6016
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 886us/step - accuracy: 0.8783 - loss: 242.1585
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 835us/step - accuracy: 0.8770 - loss: 240.9133
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 826us/step - accuracy: 0.8817 - loss: 232.9195
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 818us/step - accuracy: 0.8793 - loss: 234.9639
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 862us/step - accuracy: 0.8831 - loss: 229.8048
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 825us/step - accuracy: 0.8837 - loss: 233.9443
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 818us/step - accuracy: 0.8831 - loss: 232.7305
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 927us/step - accuracy: 0.8736 - loss: 255.2704
+Test loss: 227.24627685546875
+Test accuracy: 0.8894000053405762
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:56:47.295282: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:56:48.307306: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:56:50.748466: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8079 - loss: 444.7529 - val_accuracy: 0.8393 - val_loss: 320.1580
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8659 - loss: 260.0613 - val_accuracy: 0.8474 - val_loss: 313.5245
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8724 - loss: 250.4917 - val_accuracy: 0.8465 - val_loss: 344.0991
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8740 - loss: 251.2703 - val_accuracy: 0.8889 - val_loss: 213.5622
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8777 - loss: 235.8346 - val_accuracy: 0.8948 - val_loss: 220.9482
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 983us/step - accuracy: 0.8833 - loss: 232.4304 - val_accuracy: 0.9028 - val_loss: 204.0927
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 984us/step - accuracy: 0.8816 - loss: 232.0346 - val_accuracy: 0.8352 - val_loss: 377.8656
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 987us/step - accuracy: 0.8824 - loss: 231.8691 - val_accuracy: 0.8889 - val_loss: 236.3215
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8842 - loss: 226.9127 - val_accuracy: 0.9022 - val_loss: 208.5251
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8840 - loss: 226.8994 - val_accuracy: 0.8841 - val_loss: 241.1717
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 967us/step - accuracy: 0.8666 - loss: 268.3671
+Test loss: 241.1717071533203
+Test accuracy: 0.8841000199317932
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 11:59:39.164926: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 11:59:40.146941: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 11:59:42.544521: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8036 - loss: 451.6474 - val_accuracy: 0.8029 - val_loss: 435.9678
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8731 - loss: 244.9032 - val_accuracy: 0.8327 - val_loss: 394.8506
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8714 - loss: 248.6066 - val_accuracy: 0.8963 - val_loss: 227.2396
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8771 - loss: 238.8841 - val_accuracy: 0.8687 - val_loss: 263.5119
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8785 - loss: 239.8186 - val_accuracy: 0.8552 - val_loss: 284.5284
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8793 - loss: 233.6122 - val_accuracy: 0.8925 - val_loss: 214.0981
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8801 - loss: 232.7914 - val_accuracy: 0.8752 - val_loss: 236.2914
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8817 - loss: 225.4336 - val_accuracy: 0.8786 - val_loss: 249.6071
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8841 - loss: 229.7632 - val_accuracy: 0.9053 - val_loss: 203.2374
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 998us/step - accuracy: 0.8832 - loss: 230.6484 - val_accuracy: 0.8959 - val_loss: 217.1424
+{'accuracy': [0.8429499864578247, 0.8699333071708679, 0.8723666667938232, 0.8764166831970215, 0.8783666491508484, 0.8782666921615601, 0.8809999823570251, 0.8815666437149048, 0.8804333209991455, 0.8819166421890259], 'loss': [313.97540283203125, 256.7950439453125, 250.58270263671875, 244.7178192138672, 240.10768127441406, 240.9970703125, 237.54087829589844, 232.44981384277344, 235.68870544433594, 234.54185485839844], 'val_accuracy': [0.8029000163078308, 0.8327000141143799, 0.8963000178337097, 0.8687000274658203, 0.8551999926567078, 0.8924999833106995, 0.8751999735832214, 0.878600001335144, 0.9053000211715698, 0.8959000110626221], 'val_loss': [435.9678039550781, 394.85064697265625, 227.2396240234375, 263.5119323730469, 284.5284118652344, 214.0980987548828, 236.2914276123047, 249.6071014404297, 203.23744201660156, 217.14242553710938]}
+313/313 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8820 - loss: 237.7634 
+Test loss: 217.14242553710938
+Test accuracy: 0.8959000110626221
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P2.py"
+2025-07-25 12:02:08.678399: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:02:09.685698: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:02:12.107738: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8055 - loss: 465.3972 - val_accuracy: 0.8848 - val_loss: 235.7332
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8673 - loss: 260.6803 - val_accuracy: 0.8420 - val_loss: 313.6704
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8746 - loss: 246.4782 - val_accuracy: 0.8739 - val_loss: 246.2550
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8794 - loss: 237.6144 - val_accuracy: 0.8923 - val_loss: 213.3274
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8773 - loss: 244.3386 - val_accuracy: 0.8718 - val_loss: 264.1849
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8798 - loss: 232.4020 - val_accuracy: 0.8660 - val_loss: 267.0086
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 999us/step - accuracy: 0.8801 - loss: 240.9028 - val_accuracy: 0.8889 - val_loss: 211.3148
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8816 - loss: 229.9467 - val_accuracy: 0.8802 - val_loss: 255.2581
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8830 - loss: 236.5705 - val_accuracy: 0.8748 - val_loss: 267.0091
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 996us/step - accuracy: 0.8818 - loss: 236.1071 - val_accuracy: 0.8758 - val_loss: 268.2108
+Traceback (most recent call last):
+  File "c:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\week(25-7-25)\L2P2.py", line 26, in <module>
+    print(history.keys())
+          ^^^^^^^^^^^^
+AttributeError: 'History' object has no attribute 'keys'
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P3.py"
+2025-07-25 12:06:23.581618: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:06:24.576959: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:06:27.270085: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8028 - loss: 445.8036 - val_accuracy: 0.8143 - val_loss: 538.0247
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8674 - loss: 257.3262 - val_accuracy: 0.8836 - val_loss: 214.4524
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8750 - loss: 243.2180 - val_accuracy: 0.8798 - val_loss: 249.9804
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8764 - loss: 243.8709 - val_accuracy: 0.8780 - val_loss: 274.7802
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8776 - loss: 238.3708 - val_accuracy: 0.8958 - val_loss: 222.0529
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8819 - loss: 225.8616 - val_accuracy: 0.8732 - val_loss: 261.6992
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8832 - loss: 230.0030 - val_accuracy: 0.8748 - val_loss: 247.2441
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8848 - loss: 221.3934 - val_accuracy: 0.8914 - val_loss: 216.0960
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8822 - loss: 227.2650 - val_accuracy: 0.8923 - val_loss: 215.6106
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8820 - loss: 230.4864 - val_accuracy: 0.8997 - val_loss: 214.6646
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P3.py"
+2025-07-25 12:08:22.964518: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:08:23.950631: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:08:26.524863: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8043 - loss: 460.6276 - val_accuracy: 0.8709 - val_loss: 232.4335
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 997us/step - accuracy: 0.8677 - loss: 251.7329 - val_accuracy: 0.8882 - val_loss: 221.9140
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8746 - loss: 244.6528 - val_accuracy: 0.9037 - val_loss: 209.3022
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8762 - loss: 242.8497 - val_accuracy: 0.8468 - val_loss: 309.2665
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 989us/step - accuracy: 0.8784 - loss: 237.1187 - val_accuracy: 0.8942 - val_loss: 226.7011
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8798 - loss: 236.6398 - val_accuracy: 0.8956 - val_loss: 222.3496
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8795 - loss: 232.8628 - val_accuracy: 0.8878 - val_loss: 245.9001
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 999us/step - accuracy: 0.8836 - loss: 230.5301 - val_accuracy: 0.8922 - val_loss: 228.7993
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8810 - loss: 232.2991 - val_accuracy: 0.8679 - val_loss: 264.5518
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8847 - loss: 231.9398 - val_accuracy: 0.8857 - val_loss: 243.3011
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P4.py"
+2025-07-25 12:12:13.713000: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:12:14.736146: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:12:17.409380: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8022 - loss: 481.8168 - val_accuracy: 0.8514 - val_loss: 286.9222
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8645 - loss: 266.3531 - val_accuracy: 0.8933 - val_loss: 224.1397
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8771 - loss: 241.6136 - val_accuracy: 0.8322 - val_loss: 360.5872
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8798 - loss: 235.2632 - val_accuracy: 0.8584 - val_loss: 281.2675
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8798 - loss: 234.9295 - val_accuracy: 0.9044 - val_loss: 190.2644
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8820 - loss: 228.4545 - val_accuracy: 0.9075 - val_loss: 189.8678
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8795 - loss: 235.4392 - val_accuracy: 0.8907 - val_loss: 230.6293
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8802 - loss: 230.8023 - val_accuracy: 0.8964 - val_loss: 205.6150
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8833 - loss: 229.9130 - val_accuracy: 0.8995 - val_loss: 220.9849
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 992us/step - accuracy: 0.8830 - loss: 229.2405 - val_accuracy: 0.8871 - val_loss: 240.5383
+Traceback (most recent call last):
+  File "c:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\week(25-7-25)\L2P4.py", line 36, in <module>
+    plt.show()
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show  
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\backend_bases.py", line 3548, in show
+    cls.mainloop()
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 544, in start_main_loop
+    first_manager.window.mainloop()
+  File "C:\Users\abhis\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1505, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P3.py"
+2025-07-25 12:15:58.251216: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:15:59.260818: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:16:01.706435: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8020 - loss: 434.6531 - val_accuracy: 0.8596 - val_loss: 270.4347
+Epoch 2/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 990us/step - accuracy: 0.8650 - loss: 261.3965 - val_accuracy: 0.8896 - val_loss: 208.0094
+Epoch 3/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8722 - loss: 248.1207 - val_accuracy: 0.8863 - val_loss: 241.8377
+Epoch 4/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8778 - loss: 237.6439 - val_accuracy: 0.8922 - val_loss: 213.6375
+Epoch 5/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 996us/step - accuracy: 0.8795 - loss: 234.2217 - val_accuracy: 0.8894 - val_loss: 234.3782
+Epoch 6/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8777 - loss: 243.1441 - val_accuracy: 0.8954 - val_loss: 227.3817
+Epoch 7/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 987us/step - accuracy: 0.8824 - loss: 229.3173 - val_accuracy: 0.8692 - val_loss: 260.9935
+Epoch 8/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 977us/step - accuracy: 0.8822 - loss: 227.1426 - val_accuracy: 0.8906 - val_loss: 239.9222
+Epoch 9/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 990us/step - accuracy: 0.8823 - loss: 232.7058 - val_accuracy: 0.9012 - val_loss: 204.6130
+Epoch 10/10
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8832 - loss: 235.1265 - val_accuracy: 0.8450 - val_loss: 321.6614
+Traceback (most recent call last):
+  File "c:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\week(25-7-25)\L2P3.py", line 36, in <module>
+    plt.show()
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show  
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\backend_bases.py", line 3548, in show
+    cls.mainloop()
+  File "C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 544, in start_main_loop
+    first_manager.window.mainloop()
+  File "C:\Users\abhis\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1505, in mainloop   
+    self.tk.mainloop(n)
+  File "C:\Users\abhis\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1963, in __call__   
+    def __call__(self, *args):
+
+KeyboardInterrupt
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe "c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/week(25-7-25)/L2P3.py"
+2025-07-25 12:20:22.247550: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:20:23.156082: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:20:25.526287: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/3
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8042 - loss: 445.9541 - val_accuracy: 0.8785 - val_loss: 235.0940
+Epoch 2/3
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8689 - loss: 251.5464 - val_accuracy: 0.8526 - val_loss: 278.7861
+Epoch 3/3
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8675 - loss: 268.4560 - val_accuracy: 0.8601 - val_loss: 286.989
+
+
+Experiment: 2
+Epochs: 30
+
+(venv) PS C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS> & C:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/venv/Scripts/python.exe c:/Users/abhis/Desktop/4YS1/NLP/NLP_LABS/EXPERIMENT_1/P4.py
+2025-07-25 12:35:29.235841: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-25 12:35:30.137554: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\abhis\Desktop\4YS1\NLP\NLP_LABS\venv\Lib\site-packages\keras\src\layers\reshaping\flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+2025-07-25 12:35:32.459979: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8054 - loss: 434.5236 - val_accuracy: 0.8245 - val_loss: 366.8160
+Epoch 2/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 996us/step - accuracy: 0.8686 - loss: 253.9452 - val_accuracy: 0.8688 - val_loss: 255.6635
+Epoch 3/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8742 - loss: 248.3331 - val_accuracy: 0.8639 - val_loss: 280.5428
+Epoch 4/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 995us/step - accuracy: 0.8740 - loss: 246.4291 - val_accuracy: 0.9053 - val_loss: 184.8915
+Epoch 5/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8784 - loss: 242.4272 - val_accuracy: 0.8909 - val_loss: 212.3513
+Epoch 6/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8808 - loss: 232.4611 - val_accuracy: 0.8841 - val_loss: 236.4633
+Epoch 7/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8838 - loss: 221.5928 - val_accuracy: 0.9075 - val_loss: 201.7992
+Epoch 8/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8847 - loss: 228.0983 - val_accuracy: 0.8691 - val_loss: 291.4889
+Epoch 9/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8828 - loss: 230.6459 - val_accuracy: 0.9001 - val_loss: 209.7023
+Epoch 10/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8789 - loss: 238.7805 - val_accuracy: 0.8887 - val_loss: 234.0728
+Epoch 11/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8850 - loss: 231.7985 - val_accuracy: 0.8748 - val_loss: 263.0214
+Epoch 12/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8832 - loEpoch 13/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8837 - loss: 226.2669 - val_accuracy: 0.9022 - val_loss: 222.7317
+Epoch 14/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8869 - loss: 221.2975 - val_accuracy: 0.8703 - val_loss: 271.7708
+Epoch 15/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8835 - loss: 229.2723 - val_accuracy: 0.8387 - val_loss: 390.3337
+Epoch 16/30
+1033/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8849 - lo1067/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8850 - lo1115/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8851 - lo1152/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8852 - lo1201/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8852 - lo1241/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8853 - lo1294/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8854 - lo1336/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8855 - lo1376/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8855 - lo1416/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8856 - lo1464/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8857 - lo1518/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8858 - lo1561/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8858 - lo1601/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8859 - lo1640/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8860 - lo1683/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8860 - lo1731/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8861 - lo1773/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8861 - lo1824/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8861 - lo1871/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8862 - lo1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8862 - loss: 224.9770 - val_accuracy: 0.8544 - val_loss: 298.2155
+Epoch 17/30
+   1/1875 ━━━━━━━━━━━━━━━━━━━━ 48s 26ms/step - accuracy: 0.8125 -   43/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8849 - lo  94/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8826 - lo 132/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8827 - lo 171/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8826 - lo 211/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8824 - lo 255/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8821 - lo 302/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8819 - lo 346/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8818 - lo 387/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8819 - lo 435/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8820 - lo 480/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8820 - lo 520/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8822 - lo 563/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8823 - lo 603/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8825 - lo 651/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8827 - lo 693/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8829 - lo 736/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8831 - lo 776/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8832 - lo 824/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8833 - lo 879/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8834 - lo 933/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8836 - lo 971/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8836 - lo1008/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8837 - lo1056/1875 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - accuracy: 0.8837 - lo1094/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1151/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1191/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1237/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1282/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1322/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1373/1875 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.8838 - lo1403/1875 ━━━━━━━━━━━━━━1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8840 - loss: 223.2144 - val_accuracy: 0.8882 - val_loss: 245.6202
+Epoch 18/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8861 - loss: 225.2271 - val_accuracy: 0.8698 - val_loss: 281.9792
+Epoch 19/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8831 - loss: 227.3463 - val_accuracy: 0.8940 - val_loss: 235.7294
+Epoch 20/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8880 - loss: 222.0750 - val_accuracy: 0.8986 - val_loss: 222.3703
+Epoch 21/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8835 - loss: 229.1174 - val_accuracy: 0.8979 - val_loss: 226.2494
+Epoch 22/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8903 - loss: 216.7450 - val_accuracy: 0.8886 - val_loss: 244.3987
+Epoch 23/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8864 - loss: 230.4286 - val_accuracy: 0.9011 - val_loss: 223.4160
+Epoch 24/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step - accuracy: 0.8888 - loss: 217.7316 - val_accuracy: 0.8735 - val_loss: 272.2318
+Epoch 25/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8885 - loss: 220.1841 - val_accuracy: 0.7691 - val_loss: 680.2702
+Epoch 26/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8897 - loss: 214.1672 - val_accuracy: 0.8830 - val_loss: 244.7956
+Epoch 27/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8874 - loss: 221.1917 - val_accuracy: 0.8876 - val_loss: 265.7048
+Epoch 28/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8879 - loss: 217.6932 - val_accuracy: 0.8777 - val_loss: 289.1662
+Epoch 29/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8867 - loss: 222.5685 - val_accuracy: 0.8908 - val_loss: 245.4581
+Epoch 30/30
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8877 - loss: 231.0918 - val_accuracy: 0.8907 - val_loss: 251.5119
