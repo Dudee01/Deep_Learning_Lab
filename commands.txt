@@ -1,0 +1,16 @@
+Building an Linear Regression model using Multi Level percepton
+Exp-1
+
+python --version
+python -m venv venv 
+.\venv\Scripts\activate
+
+The bellow command is used when a user unable to enter the VE
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
+Exp-2
+List all hyper parameters
+first two lines and last two lines of epochs
+
+Exp-3
+changed the optimizer function to adam and epochs to 20
