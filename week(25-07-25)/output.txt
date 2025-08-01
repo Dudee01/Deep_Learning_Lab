@@ -5,7 +5,7 @@ Activation function: soft max
 Optimizer: sgd
 Loss: categorical_cross_entropy
 metrics: accuracy
-epochs: 10
+epochs: 3
 batch_size: 32
 validation_data: true
 val_accuracy: true

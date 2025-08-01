@@ -19,7 +19,7 @@ model.add(Flatten(input_shape=(28, 28)))  # Flatten the input
 model.add(Dense(units=10, activation='softmax'))  # Output layer with softmax activation
 
 #compile the model
-model.compile(optimizer='sgd', loss='categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 #Build the model
 history = model.fit(x_train,y_train, epochs=10, batch_size=32,validation_data=(x_test, y_test))
@@ -33,3 +33,14 @@ print("Test accuracy:", test_accuracy)
 
 #visualization 
 #loss curve on training and testing 
+#visualization 
+#loss curve on training and testing 
+plt.plot(history.history['loss'], label='Training Loss')
+plt.plot(history.history['val_loss'], label='Testing Loss')  
+plt.title('Loss Curve')
+plt.xlabel('Epochs')        
+plt.ylabel('Loss')
+plt.legend()
+plt.show()
+
+

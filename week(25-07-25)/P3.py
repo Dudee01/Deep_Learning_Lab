@@ -22,7 +22,7 @@ model.add(Dense(units=10, activation='softmax'))  # Output layer with softmax ac
 model.compile(optimizer='sgd', loss='categorical_crossentropy', metrics=['accuracy'])
 
 #Build the model
-history = model.fit(x_train,y_train, epochs=10, batch_size=32,validation_data=(x_test, y_test))
+history = model.fit(x_train,y_train, epochs=3, batch_size=32,validation_data=(x_test, y_test))
 
 
 #visualization 
@@ -32,5 +32,14 @@ plt.plot(history.history['val_loss'], label='Testing Loss')
 plt.title('Loss Curve')
 plt.xlabel('Epochs')        
 plt.ylabel('Loss')
+plt.legend()
+plt.show()
+
+#Accuracy curve on training and testing 
+plt.plot(history.history['accuracy'], label='Training Accuracy')
+plt.plot(history.history['val_accuracy'], label='Testing Accuracy')  
+plt.title('Accuracy Curve')
+plt.xlabel('Epochs')        
+plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
