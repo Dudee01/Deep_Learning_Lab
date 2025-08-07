@@ -51,7 +51,6 @@ plt.show()
 #Visualization
 plt.plot(result.history['loss'],label='train loss',color='blue')
 plt.plot(result.history['val_loss'],label='valdation loss',color='red')
-plt.xticks(np.arange(1,50))
 plt.xlabel("Epochs")
 plt.ylabel("Loss")
 plt.title("Epochs vs Loss")

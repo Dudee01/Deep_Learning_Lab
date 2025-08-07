@@ -447,3 +447,33 @@ Epoch 29/30
 1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8867 - loss: 222.5685 - val_accuracy: 0.8908 - val_loss: 245.4581
 Epoch 30/30
 1875/1875 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.8877 - loss: 231.0918 - val_accuracy: 0.8907 - val_loss: 251.5119
+
+
+Experiment: 2 (P4.py)
+No.of layers: 1
+No.of Neurons in layer: 10
+Activation function: softmax
+Optimizer: adam
+Loss: categorical_crossentropy
+metrics: accuracy
+epochs: 30
+batch_size: 32
+validation_data: true
+val_accuracy: true
+val_loss: true
+
+
+Experiment: 3 (P5.py)
+No.of layers: 3
+No.of Neurons in layer1: 256 (Dense - ReLU)
+No.of Neurons in layer2: 128 (Dense - ReLU)  
+No.of Neurons in layer3: 10 (Dense - Softmax)
+Activation functions: ReLU, ReLU, Softmax
+Optimizer: Adam (learning_rate=0.0001)
+Loss: categorical_crossentropy
+metrics: accuracy
+epochs: 10
+batch_size: 32
+validation_data: true
+val_accuracy: true
+val_loss: true

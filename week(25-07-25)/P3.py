@@ -3,7 +3,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Flatten
 import matplotlib.pyplot as plt
 from keras.datasets import mnist
-from keras.utils import to_categorical  
+from keras.utils import to_categorical   
 
 
 #Load dataset
