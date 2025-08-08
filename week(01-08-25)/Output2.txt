@@ -306,3 +306,5 @@ Epoch 50/50
 Test accuracy: 0.6322000026702881
 313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step
 Predicted label: 8
+
+
